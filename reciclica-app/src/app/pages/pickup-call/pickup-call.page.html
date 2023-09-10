@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>Pickup call</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img
+    src="https://www.adventurealternative.com/media/816739/tengger-crater-java-google-maps.png?width=662px&height=278px"
+  />
+  <ion-card>
+    <ion-card-content>
+      <p>Address: Orchard st, 13</p>
+      <p>Complement: Apto 222</p>
+      <p>Neighborhood: neighborhood</p>
+      <p>Zip code: 55231</p>
+      <p>City name-State</p>
+    </ion-card-content>
+  </ion-card>
+  <ion-list>
+    <ion-item lines="inset">
+      <ion-label position="floating">Notes</ion-label>
+      <ion-textarea></ion-textarea>
+    </ion-item>
+  </ion-list>
+  <ion-button size="full" (click)="newPickupCall()">Create pickup call</ion-button>
+</ion-content>

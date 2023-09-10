@@ -1,0 +1,7 @@
+// Bentuk font pada kelas ion-button 
+ion-button[color="dark"]{
+    text-transform:initial;
+}
+ion-content{
+    --background: var(--ion-color-success);
+}
